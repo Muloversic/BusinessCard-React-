@@ -7,7 +7,7 @@ export default function Header() {
 				<div className='header__info-me'>
 					<h2 className='header__person-name'>Oleh Nikulin</h2>
 					<h3 className='header__person-position'>Frontend developer</h3>
-					<a className='header__person-link' href='#'></a>
+					<a className='header__person-link' href='#'>nikulinoleh.website</a>
 				</div>
 				<div className='header__contacts'>
 					<button className='header__btn header__btn--email'>Email</button>
