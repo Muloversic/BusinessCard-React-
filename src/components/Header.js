@@ -10,8 +10,8 @@ export default function Header() {
 					<a className='header__person-link' href='#'>nikulinoleh.website</a>
 				</div>
 				<div className='header__contacts'>
-					<button className='header__btn header__btn--email'>Email</button>
-					<button className='header__btn header__btn--linkedin'>LinkedIn</button>
+					<button className='header__btn header__btn--email'><a href='mailto:oleh.nikulin.dev@gmail.com' target='_blank'>Email</a></button>
+					<button className='header__btn header__btn--linkedin'><a href='https://www.linkedin.com/in/oleh-nikulin/' target='_blank'>inkedIn</a></button>
 				</div>
 			</section>
 		</header>

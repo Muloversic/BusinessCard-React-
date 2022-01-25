@@ -47,8 +47,6 @@
 		cursor: pointer;
 		&--email{
 			border: 1px solid #D1D5DB;
-			color: #374151;
-			text-align: center;
 			&::before{
 				content: url('img/Mail.svg');
 				position: relative;
@@ -71,6 +69,12 @@
 				display: inline-block;
 				padding-right: 8px;
 			}
+		}
+
+		a {
+			color: inherit;
+			text-align: center;
+			text-decoration: none;
 		}
 	}
 }
@@ -101,6 +105,6 @@
 		padding: 20px 73px;
 		justify-content: space-between;
 		list-style-type: none;
+		cursor: pointer;
 	}
-	&__link{}
 }
